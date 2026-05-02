@@ -129,12 +129,14 @@ public class GetDetailedSchema {
     private boolean isSystemSchema(String schema) {
         if (schema == null) return false;
         String s = schema.toLowerCase();
-        return s.equals("information_schema") || s.equals("pg_catalog") || s.equals("pg_toast") || s.startsWith("pg_") || s.equals("mysql") || s.equals("performance_schema") || s.equals("sys");
+        return s.equals("information_schema") || s.equals("pg_catalog") || s.equals("pg_toast")
+                || s.startsWith("pg_") || s.equals("mysql") || s.equals("performance_schema")
+                || s.equals("sys") || s.equals("usercredentials");
     }
 
     private boolean isInternalTable(String tableName) {
         if (tableName == null) return false;
         String t = tableName.toLowerCase();
-        return t.equals("usercredentials") || t.equals("databaseconnectiondetails");
+        return t.equals("databaseconnectiondetails");
     }
-}
+}
