@@ -54,3 +54,9 @@ DBSight Backend allows users to:
 - Useful for reuse & insights
 
 
+## 🧱 Architecture
+Client → Controller → Service → Component -> featrue layes → DB
+                                                  ↓
+                                                 Redis(to cache user details)
+                                                
+
