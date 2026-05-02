@@ -9,7 +9,11 @@ Built using Spring Boot, PostgreSQL, Redis, and Docker.
 # Demo
 
 
-https://github.com/user-attachments/assets/b64fb8d0-c6c7-4751-824c-32069ea1fff8
+
+
+https://github.com/user-attachments/assets/4db59b86-7f67-43ef-b397-91f35628f9b4
+
+
 
 [screen-capture (1).webm](https://github.com/user-attachments/assets/ff78da88-b28d-4477-94a4-c97282eec494)
 
