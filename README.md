@@ -4,6 +4,8 @@
 Backend service for DBSight — an AI-powered database query and insights platform.  
 Built using Spring Boot, PostgreSQL, Redis, and Docker.
 
+---
+
 # Demo
 
 
