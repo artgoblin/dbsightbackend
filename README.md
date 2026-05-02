@@ -1,4 +1,56 @@
+# DBSight Backend 🚀
 
+Backend service for DBSight — an AI-powered database query and insights platform.  
+Built using Spring Boot, PostgreSQL, Redis, and Docker.
 
+---
+
+## 🧠 What This Does
+
+DBSight Backend allows users to:
+- Convert natural language → SQL queries using AI
+- Execute queries safely on connected databases
+- Apply rate limiting for AI usage
+- Cache results for performance
+- Store query history
+
+---
+
+## 🛠️ Tech Stack
+
+- Java 17
+- Spring Boot
+- Spring Security (JWT Auth)
+- PostgreSQL (Primary DB)
+- Redis (Caching + Rate Limiting)
+- Docker & Docker Compose
+- pgvector (for embeddings / AI context)
+- REST APIs
+
+---
+
+## ⚙️ Features
+
+### 🔹 AI Query Engine
+- Converts user prompts → SQL queries
+- Handles structured query generation
+- Error handling for malformed prompts
+
+### 🔹 Rate Limiting
+- Daily AI request cap per user
+- Prevents abuse and controls cost
+
+### 🔹 Caching (Redis)
+- Frequently used query results cached
+- Reduces DB load + improves speed
+
+### 🔹 Authentication
+
+- JWT-based user authentication
+- Secure API endpoints
+
+### 🔹 Query History
+- Stores past queries per user
+- Useful for reuse & insights
 
 
