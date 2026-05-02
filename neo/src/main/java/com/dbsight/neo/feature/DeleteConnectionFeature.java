@@ -44,9 +44,9 @@ public class DeleteConnectionFeature {
             DatabaseConnectionDetails pgDetails = new DatabaseConnectionDetails();
             pgDetails.setHost("pgvector");
             pgDetails.setPort("5432");
-            pgDetails.setDatabaseName("vectordb");
-            pgDetails.setUsername("postgres");
-            pgDetails.setPassword(passwordEncryptionFeature.encrypt("postgres"));
+            pgDetails.setDatabaseName("${DB_NAME}");
+            pgDetails.setUsername("${DB_USERNAME}");
+            pgDetails.setPassword(passwordEncryptionFeature.encrypt("${DB_PASSWORD}"));
             pgDetails.setDbType("postgresql");
 
             DataSource pgDs = dataSourceFactoryFeature.getOrCreateDataSource(pgDetails,userId);
