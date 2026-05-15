@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/4db59b86-7f67-43ef-b397-91f35628f9b4
 
 
 
-https://github.com/user-attachments/assets/22432d64-6218-455f-ab6d-c5141e2be0ae
+[reset-password-demo]https://github.com/user-attachments/assets/22432d64-6218-455f-ab6d-c5141e2be0ae
 
 
 
